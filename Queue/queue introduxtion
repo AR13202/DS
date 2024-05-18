@@ -1,0 +1,17 @@
+/*
+Abstract datatype
+First in First out 
+two point exit and entry
+exit ------------------ entry
+     10 20 30 40 50 60 
+first exit 10 then 20 then 30 and so on 
+for entry(insert) number will be added after 60
+insert = enqueue(10); 
+Access the front(top) = front(); gives number next to exit
+i.e in 10 20 30 it will give 10 on calling front();
+and on enqueue it will add data after 30;
+ delete(pop) = dequeue(); removes top element
+ size =  size();
+ empty = isEmpty(); 
+*/
+// implementation using array
